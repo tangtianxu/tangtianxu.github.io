@@ -45,3 +45,7 @@ main>section:not(.intro){margin:40px 0}.section-heading{display:flex;justify-con
 
 .publication-list.publication-reference-list{display:block;background:#fff;border:1px solid var(--border);border-radius:9px;padding:4px 27px}.publication-reference-list>p.paper-citation{margin:0;padding:20px 0;font-size:14px;line-height:1.95}.publication-reference-list>p+p{border-top:1px solid #e6edf4}
 @media(max-width:620px){.publication-list.publication-reference-list{padding:3px 21px}.publication-reference-list>p.paper-citation{font-size:13px;padding:18px 0}}
+
++.publication-list.publication-reference-list{border:1px solid #bccde0;padding-top:0;box-shadow:0 2px 7px #284f7510}.publication-reference-title{margin:0 -27px;padding:17px 27px;border-bottom:1px solid #cbd9e8;border-radius:8px 8px 0 0;background:#edf3fa;color:#304e6e;font-size:18px;font-weight:500;line-height:1.7}.publication-reference-list>p.paper-citation{padding-top:21px;padding-bottom:21px}
++@media(max-width:620px){.publication-reference-title{margin-inline:-21px;padding:15px 21px;font-size:16px}.publication-reference-list>p.paper-citation{padding-top:18px;padding-bottom:18px}}
++
